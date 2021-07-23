@@ -63,7 +63,7 @@ const Bottom = () => {
 
   const onKeyDown = ev => {
     if (ev.keyCode === 13) {
-      // ev.preventDefault();
+      ev.preventDefault();
       onSendClick();
     }
   };
